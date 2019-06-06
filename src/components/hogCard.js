@@ -6,12 +6,10 @@ export default class HogCard extends React.Component{
     render(){
         return(
             <div>
-                {this.props.hog.map(hog =>{
-                    return <Hog
-                    key={hog.id}
-                    hog={hog}
+                  <Hog
+                  key={this.props.hog.id}
+                  hog={this.props.hog}
                      />
-                })}
             </div>
         )
     }

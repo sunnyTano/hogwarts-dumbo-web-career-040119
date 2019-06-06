@@ -9,11 +9,11 @@ class App extends Component {
     return (
       <div className="App">
           < Nav
-            
+
            />
-          <HogContainer 
+          <HogContainer
             hogs={hogs}/>
-      </div>
+      </div>  
 
     )
   }
