@@ -1,5 +1,7 @@
 import piggy from '../porco.png'
 import React from 'react'
+import Filter from './filter.js'
+import Sort from './sort.js'
 
 const Nav = () => {
 	return (
